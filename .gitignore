@@ -92,8 +92,6 @@ dmypy.json
 # -------------------------------
 
 # OpenSCAD / 3D outputs
-*.stl
-*.scad
 sandbox/
 
 # DeepAgent memory/checkpoint

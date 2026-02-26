@@ -1,0 +1,1 @@
+Design a cube with a hexagonal hole passing all the way through it. The hexagonal hole should be centered within the cube.
