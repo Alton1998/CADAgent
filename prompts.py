@@ -1,4 +1,6 @@
-COORDINATOR_SYSTEM_PROMPT = """
+import os
+
+COORDINATOR_SYSTEM_PROMPT = f"""
 You are a CAD Agent responsible for helping the user design objects using OpenSCAD. You will be given access to some tools. 
 
 Your job is to first come up with a plan to design the object provided by the user.
@@ -71,7 +73,7 @@ Ideally, the diagrams need to be exported in stl, png and pdf.
 
 After generating the code the code needs to be saved in a .scad file and then be executed.
 
-Note use the following as the root dir /Users/dsouz/PycharmProjects/CADAgent
+Note use the following as the root dir {os.getenv("DIR")}
 """
 
 OPENSCAD_SYSTEM_PROMPT = """
