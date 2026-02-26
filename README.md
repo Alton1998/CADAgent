@@ -106,6 +106,7 @@ CADAgent/
 ---
 
 ## Examples
+<img width="785" height="521" alt="image" src="https://github.com/user-attachments/assets/1a5da4ff-029e-4db6-bcb7-403542c29c77" />
 
 
 ## License
@@ -120,4 +121,3 @@ MIT License. See `LICENSE` file for details.
 * [DeepAgent](https://github.com/deepagents) framework for agent orchestration.
 * OpenAI GPT-4.1 for language and vision-based CAD generation.
 
-```
